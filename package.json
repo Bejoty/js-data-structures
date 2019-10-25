@@ -1,0 +1,23 @@
+{
+  "name": "util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binary-tree.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bejoty/js-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bejoty/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/Bejoty/js-data-structures#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
