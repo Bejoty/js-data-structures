@@ -31,7 +31,7 @@ class LinkedList {
   }
 
   /**
-   *
+   * Returns true if the specified value is found in the list.
    * @param data
    * @returns {boolean}
    */
@@ -46,11 +46,15 @@ class LinkedList {
     return false;
   }
 
+  /**
+   * Returns the string representation of the list.
+   * @returns {string}
+   */
   toString() {
     const list = [];
     let current = this.head;
     while (current) {
-      list.push(current.value);
+      list.push(current.data);
       current = current.next;
     }
     return `[${list.join(', ')}]`;
